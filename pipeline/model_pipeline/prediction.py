@@ -1,4 +1,4 @@
-from actions.open_gate import trigger_door_alert
+from pipeline.actions.trigger_gate import trigger_door_alert
 threshold = 0.6
 
 def load_model(path):
